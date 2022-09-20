@@ -254,7 +254,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         font-family: var(--roboto-mono);
-        height: 175vh;
+        height: 180vh;
         justify-content: space-around;
         width: 100%;
     }
@@ -293,7 +293,7 @@
         flex-direction: column;
         height: 30vh;
         justify-content: space-evenly;
-        width: 100%;
+        width: 90%;
     }
 
     .skills_more__title {
@@ -320,7 +320,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         font-family: var(--roboto-mono);
-        height: 200vh;
+        height: 300vh;
         justify-content: space-between;
         width: 100%; 
     }
@@ -334,16 +334,19 @@
     }
 
     .projects__files {
+        align-items: center;
         background-color: var(--color-white);
+        border-radius: 4px;
         display: flex;
         flex-direction: column;
-        height: 173px;
+        height: 19%;
+        justify-content: space-around;
         width: 90%;
     }
 
     #project_img {
-        height: 20px;
-        width:20px;
+        border-radius: 4px;
+        width: 95%;
     }
 
     #project_title {
@@ -352,6 +355,98 @@
 
     #project_info {
         font-size: var(--font-light-body);
+        width: 90%;
+    }
+
+    #project_button {
+        align-items: center; 
+        background-color: var(--color-blue);
+        border-radius: 5px;
+        color: var(--color-white);
+        display: flex;
+        height: 40px;
+        justify-content: center;
+        text-decoration: none;
+        width: 50%;
+    }
+
+    /* CONTACT */
+
+    .contact_container {
+        align-items: center;
+        color: var(--color-white);
+        display: flex;
+        font-family: var(--roboto-mono);
+        flex-direction: column;
+        height: 100vh;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    .input_container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        justify-content: space-evenly;
+        width: 90%;
+    }
+
+    .contact__title {
+        font-size: var(--font-light-title);
+    }
+
+    .contact_inputs {
+        border-radius: 5px;
+        height: 35px;
+        width: 90%;
+    }
+
+    .contact_message__input {
+        border-radius: 5px;
+        height: 100px;
+        width: 90%;
+    }
+
+    .contact_button {
+        background-color: var(--color-blue);
+        border: none;
+        border-radius: 5px;
+        color: var(--color-white);
+        font-family: var(--roboto-mono);
+        font-size: var(--font-body);
+        height: 35px;
+        width: 50%;
+    }
+
+    /* FOOTER */
+
+    .footer_container {
+        align-content: space-around;
+        background-color:var(--color-black);
+        color: var(--color-white);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-family: var(--roboto-mono);
+        height: 150px;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #footer_info {
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer_email {
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer_medias {
+        padding-left: 5px;
+        width: 25px;
     }
 }
 
