@@ -116,6 +116,16 @@
         transition: all 0.5s cubic-bezier(0.42, 0.0, 0.58, 1.0);
     }
 
+    span {
+        animation: 1s linear infinite;
+    }
+
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
+    }
+
     /* HOME */
 
     .home_container {
@@ -146,6 +156,12 @@
 
     .home__span {
         color: var(--color-blue);
+    }
+
+    .home__span::after {
+        animation: blinker 0.5s infinite;
+        content: '|';
+        opacity: 1;
     }
 
     .github_icon {
