@@ -47,4 +47,4 @@ ScrollReveal({
     scale: 1.1,
     mobile: true,
     desktop: true
-}).reveal('.skills_img');;
+}).reveal('.skills_img');
