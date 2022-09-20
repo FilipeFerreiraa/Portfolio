@@ -23,4 +23,4 @@ for(i = 0; i < menuLinks.length; i++) {
             menuList.classList.remove('showMenu');
         }
     });
-}
+};
