@@ -7,10 +7,11 @@
     <title>Portfólio | Filipe Ferreira</title>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
-    <link rel="shortcut icon" href="./assets/img/Logopit_1663167136695.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/logo.jpg" type="image/x-icon">
     <script src="./assets/js/menuAnimation.js" defer></script>
     <script src="./assets/js/scrollReveal.js" defer></script>
     <script src="./assets/js/titleAnimation.js" defer></script>
+    <script src="./assets/js/skillInformation.js" defer></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
@@ -25,7 +26,7 @@
         </div>
         <div class="header_container">
             <img id="menu_icon" class="menu_icon load-hidden" src="./assets/img/menu.png">
-            <img id="profile_logo" class="profile_logo load-hidden" src="./assets/img/Logopit_1663167136695.png">
+            <img id="profile_logo" class="profile_logo load-hidden" src="./assets/img/logo.jpg">
         </div>
     </header>
 
@@ -53,68 +54,64 @@
 
     <div id="about_me" class="about_me__container">
         <h2 class="about_me__title">SOBRE MIM</h2>
-        <p class="about_me__text">Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Sunt delectus illum quis tempore veritatis
-            totam iure unde recusandae porro incidunt. Dolor non
-            consequuntur hic doloremque architecto, eos repudiandae ex sed.</p>
-        <img class="profile_picture" src="./assets/img/picture.png">
+        <p class="about_me__text">Olá, me chamo Filipe, tenho 22 anos
+            sou pró-ativo e estou sempre em busca de novos conhecimentos.
+            no ano de 2019 tive minha primeira experiência profissional na Lorenzetti onde atuava na área de produção. 
+            Atualmente estou cursando Programação no programa 'One' da Oracle
+            em parceria com a Alura. tive meu primeiro contato com a programação em abril de 2022,
+            até então tenho tido uma exposição diversa na área, aprendendo linguagens de
+            Front-End como HTML5, CSS3 e JavaScript, linguagem de Back-End como Java e 
+            em breve darei inicio a trilha de MySQL e OCI.
+        </p>
+        <img class="profile_picture" src="./assets/img/profile-picture.jpg">
     </div>
 
     <div id="skills" class="skills_container">
         <h3 class="skills_title">HABILIDADES</h3>
         <div class="skills_img">
             <p>HTML5</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+            <img id="html" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
         </div>
         <div class="skills_img">
             <p>CSS3</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+            <img id="css" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
         </div>
         <div class="skills_img">
             <p>JAVASCRIPT</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+            <img id="javascript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
         </div>
         <div class="skills_img">
             <p>JAVA</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
+            <img id="java" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" />
         </div>
         <div class="skills_img">
             <p>MYSQL</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
+            <img id="mysql" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
         </div>
         <div class="skills_img">
             <p>REACTJS</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+            <img id="reactjs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
         </div>
         <div class="skills_img">
             <p>VUEJS</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+            <img id="vuejs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
         </div>
         <div class="skills_img">
             <p>NEXTJS</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
+            <img id="nextjs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
         </div>
         <div class="skills_img">
             <p>ANGULARJS</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
-        </div>
-        <div class="skills_img">
-            <p>GIT</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-        </div>
-        <div class="skills_img">
-            <p>GITHUB</p>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
+            <img id="angularjs" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" />
         </div>
         <p class="skills_instruction">/*Passe o mouse por cima das tecnologias para mais informações*/</p>
         <div class="skills_more">
             <h3 class="skills_more__title">Além disso também possuo conhecimentos em:</h3>
             <ol class="skills_more__list">
-                <li>angularjs</li>
-                <li>java</li>
-                <li>javascript</li>
-                <li>html5</li>
-                <li>css3</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Inglês Avançado</li>
+                <li>SCRUM</li>
             </ol>
         </div>
     </div>
@@ -122,7 +119,7 @@
     <div id="projects" class="projects_container">
         <h4 class="projects__title">Projetos</h4>
         <div class="projects__files">
-            <img id="project_img" src="./assets/img/projects.png">
+            <img id="project_img" src="./assets/img/decodificador.png">
             <h4 id="project_title">Decodificador de Texto</h4>
             <p id="project_info">Lorem ipsum dolor sit amet
                  consectetur adipisicing 
@@ -137,7 +134,7 @@
             <a id="project_button" href="#">Ver projeto</a>
         </div>
         <div class="projects__files">
-            <img id="project_img" src="./assets/img/projects.png">
+            <img id="project_img" src="./assets/img/jogo-da-forca.png">
             <h4 id="project_title">Jogo da Forca</h4>
             <p id="project_info">Lorem ipsum dolor sit amet
                  consectetur adipisicing 
@@ -152,7 +149,7 @@
             <a id="project_button" href="#">Ver projeto</a>
         </div>
         <div class="projects__files">
-            <img id="project_img" src="./assets/img/projects.png">
+            <img id="project_img" src="./assets/img/e-commerce.png">
             <h4 id="project_title">E-Commerce</h4>
             <p id="project_info">Lorem ipsum dolor sit amet
                  consectetur adipisicing 
@@ -167,7 +164,7 @@
             <a id="project_button" href="#">Ver projeto</a>
         </div>
         <div class="projects__files">
-            <img id="project_img" src="./assets/img/projects.png">
+            <img id="project_img" src="./assets/img/conversor-de-moedas.png">
             <h4 id="project_title">Conversor de Moedas</h4>
             <p id="project_info">Lorem ipsum dolor sit amet
                  consectetur adipisicing 
@@ -198,21 +195,27 @@
         </div>
     </div>
 
-    <div class="contact_container">
+    <div id="contact" class="contact_container">
         <h5 class="contact__title">Contato</h5>
-        <div class="input_container">
-            <label class="contact_input__label" for="email">Email</label>
-            <input id="email" class="contact_inputs" type="email" placeholder="exemplo@exemplo.com">
-        </div>
-        <div class="input_container">
-            <label class="contact_input__label" for="subject">Assunto</label>
-            <input id="subject" class="contact_inputs" type="subject">
-        </div>
-        <div class="input_container">
-            <label class="contact_input__label" for="message">Mensagem</label>
-            <input id="message" class="contact_message__input" type="message">
-        </div>
-        <input class="contact_button" type="submit">
+        <form class="input_form" action="" method="POST">
+            <div class="input_container">
+                <label class="contact_input__label" for="name">Nome</label>
+                <input id="name" class="contact_inputs" type="text" name="name" placeholder="Qual seu nome?" required>
+            </div>
+            <div class="input_container">
+                <label class="contact_input__label" for="email">E-mail</label>
+                <input id="email" class="contact_inputs" type="text" name="email" placeholder="exemplo@exemplo.com" required>
+            </div>
+            <div class="input_container">
+                <label class="contact_input__label" for="subject">Assunto</label>
+                <input id="subject" class="contact_inputs" type="subject" name="subject" placeholder="Qual o assunto?">
+            </div>
+            <div class="input_container">
+                <label class="contact_input__label" for="message">Mensagem</label>
+                <input id="message" class="contact_message__input" type="message" name="message" placeholder="Qual sua mensagem?" required>
+            </div>
+            <input class="contact_button" type="submit">
+        </form>
     </div>
     <footer>
         <div class="footer_container">

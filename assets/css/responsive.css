@@ -29,10 +29,6 @@
         -webkit-text-size-adjust: auto;
     }
 
-    html.sr .load-hidden {
-        visibility: hidden;
-    }
-
     body {
         background-color: var(--color-dark-grey);
     }
@@ -91,48 +87,14 @@
         width: 480px;
     }
     
-    /* ANIMATION */
-
-    #menu_icon:active {
-        color: var(--color-blue);
-        transform: scale(1.0);
-    }
-
-    #menu_icon:hover {
-        transform: scale(0.9);
-    }
-
-    .header__links:hover{
-        background-color: var(--color-dark-grey);
-    }
     
-    .showMenu {
-        right: 0px;
-        transition: all 0.5s cubic-bezier(0.42, 0.0, 0.58, 1.0);
-    }
-
-    .hideMenu {
-        right: 480px;
-        transition: all 0.5s cubic-bezier(0.42, 0.0, 0.58, 1.0);
-    }
-
-    span {
-        animation: 1s linear infinite;
-    }
-
-    @keyframes blinker {
-        50% {
-            opacity: 0;
-        }
-    }
-
     /* HOME */
 
     .home_container {
         align-items: center;
         display: flex;
         flex-direction: column;
-        height: calc(40vh + 100%);
+        height: calc(30vh + 100%);
         justify-content: center;
         width: 100%;
     }
@@ -190,11 +152,11 @@
         display: flex;
         flex-direction: column;
         font-family: var(--roboto-mono);
-        height: 70vh;
+        height: 65vh;
         justify-content: space-around;
         width: 90%;
     }
-
+    
     .button_cv {
         align-items: center;
         background-color: var(--color-light-blue);
@@ -214,7 +176,7 @@
         height: 300px;
         width: 90%;
     }
-
+    
     /* ABOUT ME */
 
     .about_me__container {
@@ -222,7 +184,7 @@
         display: flex;
         flex-direction: column;
         font-family: var(--roboto-mono);
-        height: 100vh;
+        height: 120vh;
         justify-content: space-around;
         width: 100%;
     }
@@ -232,7 +194,7 @@
         font-size: var(--font-title);
         font-weight: bold;
     }
-
+    
     .about_me__text {
         color: var(--color-white);
         font-size: var(--font-body);
@@ -240,11 +202,11 @@
     }
 
     .profile_picture {
-        border-radius: 100%;
-        height: 17rem;
+        border-radius: 10%;
+        height: 21rem;
         width: 17rem;
     }
-
+    
     /* SKILLS */
 
     .skills_container {
@@ -254,7 +216,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         font-family: var(--roboto-mono);
-        height: 180vh;
+        height: 155vh;
         justify-content: space-around;
         width: 100%;
     }
@@ -269,10 +231,11 @@
     
     .skills_img {
         align-items: center;
+        cursor: pointer;
         display: flex;
         flex-direction: column;
         font-weight: bolder;
-        height: 15%;
+        height: 10%;
         justify-content: space-evenly;
         padding: 10px;
         width: 25%;
@@ -284,10 +247,11 @@
         display: flex;
         font-family: var(--roboto-mono);
         font-size: var(--font-body);
-        height: 200px;
+        height: 250px;
         text-align: center;
+        width: 90%;
     }
-
+    
     .skills_more {
         display: flex;
         flex-direction: column;
@@ -300,7 +264,7 @@
         font-family: var(--roboto-mono);
         font-size: var(--font-light-title);
         font-weight: 700;
-        width: 90%;
+        width: 95%;
     }
 
     .skills_more__list {
@@ -309,7 +273,7 @@
         font-size: var(--font-body);
         height: 200px;
         justify-content: space-evenly;
-        width: 50%;
+        width: 90%;
     }
 
     /* PROJECTS */
@@ -343,7 +307,7 @@
         justify-content: space-around;
         width: 90%;
     }
-
+    
     #project_img {
         border-radius: 4px;
         width: 95%;
@@ -391,6 +355,15 @@
         justify-content: space-evenly;
         width: 90%;
     }
+    
+    .input_form {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 85vh;
+        justify-content: space-evenly;
+        width: 100%;
+    }
 
     .contact__title {
         font-size: var(--font-light-title);
@@ -402,10 +375,18 @@
         width: 90%;
     }
 
+    .contact_inputs:focus {
+        outline: 0;
+    }
+
     .contact_message__input {
         border-radius: 5px;
         height: 100px;
         width: 90%;
+    }
+
+    .contact_message__input:focus{
+        outline: 0;
     }
 
     .contact_button {
@@ -443,10 +424,36 @@
         text-align: center;
         width: 100%;
     }
-
+    
     #footer_medias {
         padding-left: 5px;
         width: 25px;
+    }
+    
+    /* ANIMATION */
+    
+    .header__links:hover{
+        background-color: var(--color-dark-grey);
+    }
+    
+    .showMenu {
+        right: 0px;
+        transition: all 0.5s cubic-bezier(0.42, 0.0, 0.58, 1.0);
+    }
+    
+    .hideMenu {
+        right: 480px;
+        transition: all 0.5s cubic-bezier(0.42, 0.0, 0.58, 1.0);
+    }
+    
+    span {
+        animation: 1s linear infinite;
+    }
+    
+    @keyframes blinker {
+        50% {
+            opacity: 0;
+        }
     }
 }
 

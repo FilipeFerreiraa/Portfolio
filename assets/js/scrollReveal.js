@@ -1,22 +1,4 @@
 ScrollReveal({
-    reset: false,
-    delay: 10,
-    duration: 2000,
-    scale: 2,
-    distance: '1px',
-    interval: 100
-}).reveal('.menu_icon');
-
-ScrollReveal({
-    reset: false,
-    duration: 2000,
-    delay: 10,
-    scale: 2,
-    distance: '1px',
-    interval: 100
-}).reveal('.profile_logo');
-
-ScrollReveal({
     reset: true,
     duration: 1000,
     origin: 'top',
