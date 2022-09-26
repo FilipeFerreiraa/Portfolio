@@ -404,6 +404,7 @@
         border: none;
         border-radius: 5px;
         color: var(--color-white);
+        cursor: pointer;
         font-family: var(--roboto-mono);
         font-size: var(--font-body);
         height: 5%;
@@ -685,8 +686,15 @@
         width: 12%;
     }
 
+    .projects_container {
+        flex-direction: row;
+        height: 220vh;
+        justify-content: space-evenly;
+    }
+
     .projects__files {
-        width: 47%;
+        height: 28%;
+        width: 34%;
     }
 
     .hideMenu {
@@ -704,20 +712,29 @@
     }
 
     .linkedin_icon {
-        width: 3vw;
+        width: 2vw;
     }
 
     .github_icon {
-        width: 3vw;
+        width: 2vw;
+    }
+
+    .button_cv {
+        width: 30%;
     }
 
     .profile_picture {
         height: 41%;
-        width: 24%;
+        width: 22%;
     }
 
     .skills_img {
+        height: 20%;
         width: 10%;
+    }
+
+    .skills_instruction {
+        font-size: 1.5rem;
     }
 
     .skills_more__title {
@@ -729,16 +746,36 @@
     }
 
     .projects_container {
-        height: 380vh;
+        height: 240vh;
     }
 
     .projects__files {
-        height: 17%;
-        width: 38%;
+        height: 24%;
+        width: 34%;
+    }
+
+    #project_title {
+        font-size: 2rem;
+    }
+
+    #project_info {
+        font-size: 1.4rem;
     }
 
     .contact_container {
         height: 140vh;
+    }
+
+    .contact_inputs {
+        width: 70%;
+    }
+
+    .contact_message__input {
+        width: 70%;
+    }
+
+    .contact_button {
+        width: 35%;
     }
 
     #footer_info {
@@ -747,6 +784,18 @@
 
     .hideMenu {
         right: 1920px;
+    }
+}
+
+@media screen and (min-width: 1536px) {
+    .profile_picture {
+        width: 20%;
+    }
+
+    .projects__files {
+        height: 33%;
+        width: 30%;
+        margin: 20px;
     }
 }
 
@@ -790,8 +839,9 @@
     }
 
     .projects__files {
-        height: 18%;
-        width: 33%;
+        height:34%;
+        width: 34%;
+        margin: 5px;
     }
 
     #project_button {
@@ -844,10 +894,6 @@
 
     .skills_more__list {
         font-size: 2rem;
-    }
-
-    .projects_container {
-        height: 420vh;
     }
 
     .projects__files {
