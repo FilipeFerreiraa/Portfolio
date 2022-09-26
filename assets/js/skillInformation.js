@@ -33,12 +33,12 @@ java.addEventListener('mouseover', ()=> {
     }
 })
 
-let mysql = document.getElementById('mysql');
-mysql.addEventListener('mouseover', ()=> { 
-    if(html.onmousemove = true) {
-        text.innerText = 'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.';
-    }
-})
+// let mysql = document.getElementById('mysql');
+// mysql.addEventListener('mouseover', ()=> { 
+//     if(html.onmousemove = true) {
+//         text.innerText = 'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.';
+//     }
+// })
 
 let reactjs = document.getElementById('reactjs');
 reactjs.addEventListener('mouseover', ()=> { 
@@ -47,23 +47,23 @@ reactjs.addEventListener('mouseover', ()=> {
     }
 })
 
-let vuejs = document.getElementById('vuejs');
-vuejs.addEventListener('mouseover', ()=> { 
-    if(html.onmousemove = true) {
-        text.innerText = 'Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.';
-    }
-})
+// let vuejs = document.getElementById('vuejs');
+// vuejs.addEventListener('mouseover', ()=> { 
+//     if(html.onmousemove = true) {
+//         text.innerText = 'Vue.js é um framework JavaScript de código-aberto, focado no desenvolvimento de interfaces de usuário e aplicativos de página única.';
+//     }
+// })
 
-let nextjs = document.getElementById('nextjs');
-nextjs.addEventListener('mouseover', ()=> { 
-    if(html.onmousemove = true) {
-        text.innerText = 'Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.';
-    }
-})
+// let nextjs = document.getElementById('nextjs');
+// nextjs.addEventListener('mouseover', ()=> { 
+//     if(html.onmousemove = true) {
+//         text.innerText = 'Next.js é uma estrutura da web de desenvolvimento front-end React de código aberto que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para aplicativos da web baseados em React.';
+//     }
+// })
 
-let angularjs = document.getElementById('angularjs');
-angularjs.addEventListener('mouseover', ()=> { 
-    if(html.onmousemove = true) {
-        text.innerText = 'AngularJS é um framework JavaScript código aberto, mantido pelo Google, que auxilia na execução de single-page applications.';
-    }
-})
+// let angularjs = document.getElementById('angularjs');
+// angularjs.addEventListener('mouseover', ()=> { 
+//     if(html.onmousemove = true) {
+//         text.innerText = 'AngularJS é um framework JavaScript código aberto, mantido pelo Google, que auxilia na execução de single-page applications.';
+//     }
+// })
