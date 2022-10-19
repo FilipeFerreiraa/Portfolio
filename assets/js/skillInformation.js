@@ -33,12 +33,12 @@ python.addEventListener('mouseover', ()=> {
     }
 })
 
-// let mysql = document.getElementById('mysql');
-// mysql.addEventListener('mouseover', ()=> { 
-//     if(html.onmousemove = true) {
-//         text.innerText = 'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.';
-//     }
-// })
+let mysql = document.getElementById('mysql');
+mysql.addEventListener('mouseover', ()=> { 
+    if(html.onmousemove = true) {
+        text.innerText = 'O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface.';
+    }
+})
 
 let reactjs = document.getElementById('reactjs');
 reactjs.addEventListener('mouseover', ()=> { 
