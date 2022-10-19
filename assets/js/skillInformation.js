@@ -26,10 +26,10 @@ javascript.addEventListener('mouseover', ()=> {
     }
 })
 
-let java = document.getElementById('java');
-java.addEventListener('mouseover', ()=> { 
+let python = document.getElementById('python');
+python.addEventListener('mouseover', ()=> { 
     if(html.onmousemove = true) {
-        text.innerText = 'Java é uma linguagem de programação orientada a objetos.';
+        text.innerText = 'Python é uma linguagem de programação de alto nível, interpretada de script, imperativa, orientada a objetos, funcional, de tipagem dinâmica e forte.';
     }
 })
 
